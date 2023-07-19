@@ -1,2 +1,1 @@
-# python
- Learnin Python and Solving Programming Contests
+# Learning Python and Solving Programming Contests
