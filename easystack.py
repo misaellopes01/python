@@ -4,7 +4,6 @@ def main():
     t = int(sys.stdin.readline())
     myStack = []
     readings(t, myStack)
-# usar uma unica pilha
 def readings(testCases, myStack):
     while testCases >= 1:
         numbers = sys.stdin.readline().split()
