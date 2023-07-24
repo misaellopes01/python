@@ -14,8 +14,7 @@ def readings(testCases, myStack):
                 sys.stdout.write("Empty!\n")
             else:
                 sys.stdout.write(f"{myStack[-1]}\n")
-        else:
-        # elif numbers[0] == "1":
+        elif numbers[0] == "1":
             myStack.append(numbers[1])
         testCases -= 1
 main()
