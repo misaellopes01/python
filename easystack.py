@@ -18,6 +18,17 @@ def readings(testCases, myStack):
             myStack.append(numbers[1])
         testCases -= 1
 main()
+
+
+
+
+
+
+
+
+
+
+
 # =============================================================================================
 # import sys
 # from io import StringIO
