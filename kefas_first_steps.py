@@ -6,7 +6,7 @@ def main():
     result = 0
     count = 1
     for i in range(1, n):
-        if number[i] >= number[i - 1]:
+        if int(number[i]) >= int(number[i - 1]):
             count += 1
         else:
             result = max(result, count)
@@ -28,7 +28,7 @@ main()
 #     for i in range(n):
 #         position = i
 #         while position < len(number) - 1:
-#           if number[position] <= number[position + 1]:
+#           if int(number[position]) <= int(number[position + 1]):
 #             count += 1
 #             position += 1
 #           else:
